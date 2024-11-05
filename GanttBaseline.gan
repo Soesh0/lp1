@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2024-10-04" view-index="0" gantt-divider-location="346" resource-divider-location="300" version="3.3.3312" locale="en_US">
+    <description/>
+    <view zooming-state="default:1" id="gantt-chart">
+        <field id="tpd3" name="Name" width="165" order="0"/>
+        <field id="tpd4" name="Begin date" width="82" order="1"/>
+        <field id="tpd5" name="End date" width="83" order="2"/>
+        <option id="taskLabelUp" value="id"/>
+        <option id="taskLabelDown" value="taskDates"/>
+        <option id="taskLabelLeft" value="length"/>
+        <option id="taskLabelRight" value="advancement"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+        <timeline><![CDATA[35,36]]></timeline>
+        <option id="color.recent"><![CDATA[#ff3333]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="34" uid="e15176a1165442e987d17e8f05546f21" name="PLANNING" meeting="false" start="2024-10-11" duration="3" complete="64" expand="true">
+            <depend id="39" type="2" difference="0" hardness="Strong"/>
+            <task id="35" uid="d27458b6103b477e81d66997bc919ed9" name="DEFINE GOALS" meeting="false" start="2024-10-11" duration="1" complete="50" priority="2" expand="true"/>
+            <task id="36" uid="e2a63a8a74a04a299d82e86468c7c946" name="IDENTIFY STAKEHOLDERS" meeting="false" start="2024-10-11" duration="1" complete="75" expand="true"/>
+            <task id="37" uid="6abf195bb4ab42e1ba39cd04a8afec2d" name="BUDGET ESTIMQATION" meeting="false" start="2024-10-11" duration="3" complete="65" expand="true"/>
+        </task>
+        <task id="39" uid="80ff0e83c46c4ece93c36be4f1cd22a5" name="RESEARCH" meeting="false" start="2024-10-16" duration="5" complete="90" expand="true">
+            <depend id="45" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="45" uid="92f5633292ea417bb1d84ac95d094935" name="DESIGN" meeting="false" start="2024-10-23" duration="5" complete="54" expand="true">
+            <depend id="73" type="2" difference="0" hardness="Strong"/>
+            <task id="46" uid="6a2c0fc34a464f3a975ae2e1e63c3fba" name="CREATE WIREFRAMES" meeting="false" start="2024-10-23" duration="5" complete="45" expand="true"/>
+            <task id="47" uid="d6587cf91b2f4db8930b6e8d03236873" name="FEEDBACK AND REVISION" meeting="false" start="2024-10-23" duration="2" complete="78" expand="true"/>
+        </task>
+        <task id="73" uid="1d39f36e698049ae95da0e193490ffab" name="DEVELPOMENT" meeting="false" start="2024-10-30" duration="4" complete="67" expand="true">
+            <depend id="82" type="2" difference="0" hardness="Strong"/>
+            <task id="74" uid="a5ea03c146fe48fe995b5d9c10f87e72" name="FRONTEND" meeting="false" start="2024-10-30" duration="1" complete="5" expand="true"/>
+            <task id="75" uid="e1fb9e2f5793457cb70e67cea3562df7" name="BACKEND" meeting="false" start="2024-10-30" duration="4" complete="100" expand="true"/>
+            <task id="76" uid="a0fd3748302f4bc9ac7d19312b5485b3" name="INTEGRATION" meeting="false" start="2024-10-30" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="82" uid="595662c9b03a4dd68adcde7b65b55b58" name="TESTING" meeting="false" start="2024-11-05" duration="2" complete="66" expand="true">
+            <depend id="88" type="2" difference="0" hardness="Strong"/>
+            <task id="83" uid="41abb418a0d64880bd00ca6a06353c29" name="UNIT TESTING" meeting="false" start="2024-11-05" duration="2" complete="100" expand="true"/>
+            <task id="84" uid="d4b26ecc97604c6e9b282fddea1bab1d" name="USER ACCEPTANCE TESTING" meeting="false" start="2024-11-05" duration="1" complete="0" expand="true"/>
+        </task>
+        <task id="88" uid="8829b8841086443cbd33ceefd49aff77" name="LAUNCH" meeting="false" start="2024-11-07" duration="1" complete="100" expand="true"/>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous>
+        <previous-tasks name="FRONTEND">
+            <previous-task id="34" start="2024-10-11" duration="3" meeting="false" super="true"/>
+            <previous-task id="35" start="2024-10-11" duration="2" meeting="false" super="false"/>
+            <previous-task id="36" start="2024-10-11" duration="1" meeting="false" super="false"/>
+            <previous-task id="37" start="2024-10-11" duration="3" meeting="false" super="false"/>
+            <previous-task id="39" start="2024-10-16" duration="4" meeting="false" super="true"/>
+            <previous-task id="40" start="2024-10-16" duration="4" meeting="false" super="false"/>
+            <previous-task id="44" start="2024-10-16" duration="3" meeting="false" super="false"/>
+            <previous-task id="43" start="2024-10-16" duration="3" meeting="false" super="false"/>
+            <previous-task id="45" start="2024-10-22" duration="5" meeting="false" super="true"/>
+            <previous-task id="46" start="2024-10-22" duration="5" meeting="false" super="false"/>
+            <previous-task id="47" start="2024-10-22" duration="2" meeting="false" super="false"/>
+            <previous-task id="73" start="2024-10-29" duration="4" meeting="false" super="true"/>
+            <previous-task id="74" start="2024-10-29" duration="2" meeting="false" super="false"/>
+            <previous-task id="75" start="2024-10-29" duration="4" meeting="false" super="false"/>
+            <previous-task id="76" start="2024-10-29" duration="1" meeting="false" super="false"/>
+            <previous-task id="82" start="2024-11-04" duration="2" meeting="false" super="true"/>
+            <previous-task id="83" start="2024-11-04" duration="2" meeting="false" super="false"/>
+            <previous-task id="84" start="2024-11-04" duration="1" meeting="false" super="false"/>
+            <previous-task id="88" start="2024-11-06" duration="1" meeting="false" super="false"/>
+        </previous-tasks>
+        <previous-tasks name="DEFINE GOALS">
+            <previous-task id="34" start="2024-10-11" duration="3" meeting="false" super="true"/>
+            <previous-task id="35" start="2024-10-11" duration="2" meeting="false" super="false"/>
+            <previous-task id="36" start="2024-10-11" duration="1" meeting="false" super="false"/>
+            <previous-task id="37" start="2024-10-11" duration="3" meeting="false" super="false"/>
+            <previous-task id="39" start="2024-10-16" duration="4" meeting="false" super="true"/>
+            <previous-task id="40" start="2024-10-16" duration="4" meeting="false" super="false"/>
+            <previous-task id="44" start="2024-10-16" duration="3" meeting="false" super="false"/>
+            <previous-task id="43" start="2024-10-16" duration="3" meeting="false" super="false"/>
+            <previous-task id="45" start="2024-10-22" duration="5" meeting="false" super="true"/>
+            <previous-task id="46" start="2024-10-22" duration="5" meeting="false" super="false"/>
+            <previous-task id="47" start="2024-10-22" duration="2" meeting="false" super="false"/>
+            <previous-task id="73" start="2024-10-29" duration="4" meeting="false" super="true"/>
+            <previous-task id="74" start="2024-10-29" duration="1" meeting="false" super="false"/>
+            <previous-task id="75" start="2024-10-29" duration="4" meeting="false" super="false"/>
+            <previous-task id="76" start="2024-10-29" duration="1" meeting="false" super="false"/>
+            <previous-task id="82" start="2024-11-04" duration="2" meeting="false" super="true"/>
+            <previous-task id="83" start="2024-11-04" duration="2" meeting="false" super="false"/>
+            <previous-task id="84" start="2024-11-04" duration="1" meeting="false" super="false"/>
+            <previous-task id="88" start="2024-11-06" duration="1" meeting="false" super="false"/>
+        </previous-tasks>
+        <previous-tasks name="">
+            <previous-task id="34" start="2024-10-11" duration="3" meeting="false" super="true"/>
+            <previous-task id="35" start="2024-10-11" duration="1" meeting="false" super="false"/>
+            <previous-task id="36" start="2024-10-11" duration="1" meeting="false" super="false"/>
+            <previous-task id="37" start="2024-10-11" duration="3" meeting="false" super="false"/>
+            <previous-task id="39" start="2024-10-16" duration="5" meeting="false" super="false"/>
+            <previous-task id="45" start="2024-10-23" duration="5" meeting="false" super="true"/>
+            <previous-task id="46" start="2024-10-23" duration="5" meeting="false" super="false"/>
+            <previous-task id="47" start="2024-10-23" duration="2" meeting="false" super="false"/>
+            <previous-task id="73" start="2024-10-30" duration="4" meeting="false" super="true"/>
+            <previous-task id="74" start="2024-10-30" duration="1" meeting="false" super="false"/>
+            <previous-task id="75" start="2024-10-30" duration="4" meeting="false" super="false"/>
+            <previous-task id="76" start="2024-10-30" duration="1" meeting="false" super="false"/>
+            <previous-task id="82" start="2024-11-05" duration="2" meeting="false" super="true"/>
+            <previous-task id="83" start="2024-11-05" duration="2" meeting="false" super="false"/>
+            <previous-task id="84" start="2024-11-05" duration="1" meeting="false" super="false"/>
+            <previous-task id="88" start="2024-11-07" duration="1" meeting="false" super="false"/>
+        </previous-tasks>
+        <previous-tasks name="base">
+            <previous-task id="34" start="2024-10-11" duration="3" meeting="false" super="true"/>
+            <previous-task id="35" start="2024-10-11" duration="1" meeting="false" super="false"/>
+            <previous-task id="36" start="2024-10-11" duration="1" meeting="false" super="false"/>
+            <previous-task id="37" start="2024-10-11" duration="3" meeting="false" super="false"/>
+            <previous-task id="39" start="2024-10-16" duration="5" meeting="false" super="false"/>
+            <previous-task id="45" start="2024-10-23" duration="5" meeting="false" super="true"/>
+            <previous-task id="46" start="2024-10-23" duration="5" meeting="false" super="false"/>
+            <previous-task id="47" start="2024-10-23" duration="2" meeting="false" super="false"/>
+            <previous-task id="73" start="2024-10-30" duration="4" meeting="false" super="true"/>
+            <previous-task id="74" start="2024-10-30" duration="1" meeting="false" super="false"/>
+            <previous-task id="75" start="2024-10-30" duration="4" meeting="false" super="false"/>
+            <previous-task id="76" start="2024-10-30" duration="1" meeting="false" super="false"/>
+            <previous-task id="82" start="2024-11-05" duration="2" meeting="false" super="true"/>
+            <previous-task id="83" start="2024-11-05" duration="2" meeting="false" super="false"/>
+            <previous-task id="84" start="2024-11-05" duration="1" meeting="false" super="false"/>
+            <previous-task id="88" start="2024-11-07" duration="1" meeting="false" super="false"/>
+        </previous-tasks>
+    </previous>
+    <roles roleset-name="Default"/>
+</project>
